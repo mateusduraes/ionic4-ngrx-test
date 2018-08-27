@@ -19,7 +19,9 @@ import { counterReducer } from './stores/counter/counter.reducers';
     BrowserModule,
     IonicModule.forRoot(),
     AppRoutingModule,
-    StoreModule.forRoot({ count: counterReducer }),
+    StoreModule.forRoot({ 
+      count: counterReducer,
+    }),
   ],
   providers: [
     StatusBar,
